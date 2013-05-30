@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:padding="5dp" >
+    
+
+    <TextView
+        android:id="@+id/textValorEuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textValorEuros"         
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+    
+     <EditText 
+        android:id="@+id/valorEuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp"/>
+     
+     <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	    
+	    android:orientation="horizontal" 
+	    android:background="@android:color/black"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp"
+	    android:gravity="center_horizontal">
+	    
+         
+         <Button android:id="@+id/aDolares"
+                android:tag="aDolares"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/dolares"
+                android:onClick="pulsaConversor"/>
+         
+         
+         <Button android:id="@+id/aLibras"
+                android:tag="aLibras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/libras"
+                android:onClick="pulsaConversor"/>
+            
+            
+            
+            <Button android:id="@+id/aYenes"
+                android:tag="aYenes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/yenes"
+                android:layout_gravity="right"
+                android:onClick="pulsaConversor"/>
+	    
+       </LinearLayout>
+       
+     <TextView
+        android:id="@+id/textValorConvertido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"              
+        android:textColor="@android:color/white"
+        android:background="@android:color/background_dark"       
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+    
+     <TextView 
+        android:id="@+id/valorConvertido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        />
+     
+     <TextView
+        android:id="@+id/textPractica"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/textPractica"         
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:gravity="bottom"/>
+
+</LinearLayout>

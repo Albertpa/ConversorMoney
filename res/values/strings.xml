@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Money Converter</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="textValorEuros">Introducir valor en € :</string>
+    <string name="libras">A libras</string>
+    <string name="dolares">A dólares</string>
+    <string name="yenes">A yenes</string>
+    <string name="textValorConvertidoD">Valor convertido a Dólares</string>
+    <string name="textValorConvertidoL">Valor convertido a Libras</string>
+    <string name="textValorConvertidoY">Valor convertido a Yenes</string>
+    <string name="textPractica">Practica desarrollada por Albert Pagès Raventós 21-01-2013\nE. U. en programación de aplicaciones Android e iOS - UNED</string>  
+
+</resources>
